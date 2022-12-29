@@ -47,7 +47,7 @@ docker build -t poker-php-project .
 * Use any available port eg. 5721
 * Use code path. eg: C:\xampp\htdocs\test-poker or /home/user/test-poker
 ```
-docker run --name poker-php-container  -p 5721:80 -v C:\xampp\htdocs\test-poker:/var/www/html -d poker-php-project
+docker run --name poker-php-container  -p 5721:80 -v C:\xampp\htdocs\prueba-poker:/var/www/html -d poker-php-project
 ```
 
 ##### Run container bash
